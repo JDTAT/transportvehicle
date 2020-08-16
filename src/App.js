@@ -60,20 +60,6 @@ const App = props => {
       });
   }, []);
 
-  useEffect(() => {
-
-    // let totalTrip = (tripSummary && tripSummary.data) ? tripSummary.data.totalTripTime : null
-    // // let duration =trip.startTripDate;
-    // let totalTripMin = Math.floor((totalTrip / (1000 * 60)) % 60),
-    // totalTripHour = Math.floor((totalTrip / (1000 * 60 * 60)) % 24);
-    // totalTripHour = (totalTripHour > 0 ) ? totalTripHour + "hrs": null;
-    // totalTripMin = (totalTripMin > 0 ) ? totalTripMin + "min": "00 min";
-    // let finalTotalTripTime = totalTripHour+" "+totalTripMin;
-    // setTotalTripTime({finalTotalTripTime})
-
-  })
-
-
   return (
     <div>
       {console.log("=========")}
@@ -189,34 +175,13 @@ const App = props => {
                 <tbody>
                   {item.tripLists && item.tripLists.length > 0 ?
                     item.tripLists.map((trip, tripindex) => {
-                      // let startDate = new Date(parseInt(trip.startTripDate))
-                      // console.log(startDate.getHours);
-                      // let startDateStr = (startDate.toLocaleString()).split(",");
-                      // let time =startDateStr.split("")
-                      //   let duration =trip.startTripDate;
-                      //   var milliseconds = parseInt((duration % 1000) / 100),
-                      //   seconds = Math.floor((duration / 1000) % 60),
-                      //   minutes = Math.floor((duration / (1000 * 60)) % 60),
-                      //   hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
-
-                      // hours = (hours < 10) ? "0" + hours : hours;
-                      // minutes = (minutes < 10) ? "0" + minutes : minutes;
-                      // seconds = (seconds < 10) ? "0" + seconds : seconds;
-
-
-                      // console.log("date is : " + hour + ":" + minute + ":" + seconds + "." );
-                      // console.log(trip.tripExpenses[tripindex])
+                      
 
                       let tripTime = trip.tripRunningTime;
-                      // let duration =trip.startTripDate;
                       var milliseconds = parseInt((tripTime % 1000) / 100),
                         seconds = Math.floor((tripTime / 1000) % 60),
                         minutes = Math.floor((tripTime / (1000 * 60)) % 60),
                         hours = Math.floor((tripTime / (1000 * 60 * 60)) % 24);
-
-                      // hours = (hours < 10) ? "0" + hours : hours;
-                      // minutes = (minutes < 10) ? "0" + minutes : minutes;
-                      // seconds = (seconds < 10) ? "0" + seconds : seconds;
 
                       return <tr>
                         <td>{tripindex + 1}</td>
