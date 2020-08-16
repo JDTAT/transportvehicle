@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d45ae27073abbeeaa749f81973af1771",
+    "revision": "9e56e44389574f7e389f86954cd7419c",
     "url": "/transportvehicle/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/transportvehicle/static/css/2.04ff9426.chunk.css"
   },
   {
-    "revision": "514944460efbcb933c07",
+    "revision": "2e9671fdf773cb17a558",
     "url": "/transportvehicle/static/css/main.f1b5e3d9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/transportvehicle/static/js/2.114da10b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "514944460efbcb933c07",
-    "url": "/transportvehicle/static/js/main.d92fad0f.chunk.js"
+    "revision": "2e9671fdf773cb17a558",
+    "url": "/transportvehicle/static/js/main.5e24783a.chunk.js"
   },
   {
     "revision": "9c095c032b13af7061dc",

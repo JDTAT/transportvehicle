@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/transportvehicle/static/css/main.f1b5e3d9.chunk.css",
-    "main.js": "/transportvehicle/static/js/main.d92fad0f.chunk.js",
-    "main.js.map": "/transportvehicle/static/js/main.d92fad0f.chunk.js.map",
+    "main.js": "/transportvehicle/static/js/main.5e24783a.chunk.js",
+    "main.js.map": "/transportvehicle/static/js/main.5e24783a.chunk.js.map",
     "runtime-main.js": "/transportvehicle/static/js/runtime-main.2531e121.js",
     "runtime-main.js.map": "/transportvehicle/static/js/runtime-main.2531e121.js.map",
     "static/css/2.04ff9426.chunk.css": "/transportvehicle/static/css/2.04ff9426.chunk.css",
     "static/js/2.114da10b.chunk.js": "/transportvehicle/static/js/2.114da10b.chunk.js",
     "static/js/2.114da10b.chunk.js.map": "/transportvehicle/static/js/2.114da10b.chunk.js.map",
     "index.html": "/transportvehicle/index.html",
-    "precache-manifest.28207dd6c229525d6ed778b3ecc8a26e.js": "/transportvehicle/precache-manifest.28207dd6c229525d6ed778b3ecc8a26e.js",
+    "precache-manifest.61fc4a9f0d426ac1bc1722209b751b28.js": "/transportvehicle/precache-manifest.61fc4a9f0d426ac1bc1722209b751b28.js",
     "service-worker.js": "/transportvehicle/service-worker.js",
     "static/css/2.04ff9426.chunk.css.map": "/transportvehicle/static/css/2.04ff9426.chunk.css.map",
     "static/css/main.f1b5e3d9.chunk.css.map": "/transportvehicle/static/css/main.f1b5e3d9.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.04ff9426.chunk.css",
     "static/js/2.114da10b.chunk.js",
     "static/css/main.f1b5e3d9.chunk.css",
-    "static/js/main.d92fad0f.chunk.js"
+    "static/js/main.5e24783a.chunk.js"
   ]
 }
