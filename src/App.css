@@ -1,13 +1,102 @@
 body{
-  background-color: rgb(207, 207, 207);
   padding: 20px;
 }
 
 
+.top_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date_from_to{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mr-10{
+  margin: 10px !important;
+}
+
+.box_top{
+  height: 40px !important;
+    width: 350px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: white !important;
+    font-size: 15px !important;
+    border: none !important;
+}
+.box_one{
+  background-color: #8484bd !important;
+}
+.box_two{
+  background-color: #FF9800 !important;
+}
+.box_three{
+  background-color: #7c0a90 !important
+}
+.box_four{
+  background-color: #FF9800 !important;
+}
+.box_five{
+  background-color: #7c0a90 !important
+}
+.box_six{
+  background-color: red !important;
+}
+
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
+  [data-theme="dark"] .site-card-border-less-wrapper {
+    background: #303030;
+}
+
+
+
+
+.trip_table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.trip_table td, .trip_table th {
+  border: 1px solid #ddd;
+  /* padding: 2px; */
+}
+
+.trip_table tr:nth-child(even){background-color: #f2f2f2;}
+
+.trip_table tr:hover {background-color: #ddd;}
+
+.trip_table th {
+  text-align: center;
+  background-color: #03A9F4;
+  color: white;
+}
+
+
+.trip_table td {
+  padding: 10px 5px 10px 5px; 
+}
+
+.tbl_btn{
+  padding: 10px;
+  background-color: #8484bd;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+
+/* 
 .container{
-  /* display: grid;
+  display: grid;
   grid-template-columns: 25% 75%;
-  grid-gap: 1rem; */
+  grid-gap: 1rem;
   display: flex;
   
 }
@@ -65,12 +154,12 @@ img{
   color: #671fa9;
   font-size: 15px;
 }
-/* */
+
 .txt_center{
 text-align: center;
 }
 
-/* Media query */
+
 @media only screen and (max-width: 710px){
   .container{
     display: block;
@@ -84,45 +173,5 @@ text-align: center;
     margin-left: 0px;
     width: 100%;
   }
-}
-
-
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 } */
+
