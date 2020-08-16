@@ -13,7 +13,7 @@ const App = props => {
   let [tripSummary, setTripSummary] = useState();
   let [totalTripTime, setTotalTripTime] = useState();
 
-  let url = "http://staging.watsoo.com:8080/watsoo-amazon-api//trip-controller-web/v1/vehicle/wise/summary/36";
+  let url = "https://staging.watsoo.com:8080/watsoo-amazon-api//trip-controller-web/v1/vehicle/wise/summary/36";
 
 
   function onStartDateChange(d, dateString) {
